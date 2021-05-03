@@ -1,0 +1,17 @@
+
+.card{
+    display: flex;
+    border-radius: 20px;
+    height: 500px;
+    font-family: Century Gothic;
+}
+
+
+
+
+
+@media screen and (max-width: 375px) {
+    .card {
+      margin-left:  auto;
+    }
+}

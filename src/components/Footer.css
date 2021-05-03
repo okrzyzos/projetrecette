@@ -1,0 +1,136 @@
+.footer {
+    width: 100%;
+    background-color: #e55039;
+    color: #fff;
+    margin-top: 30px;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+  }
+  
+  .droits {
+    margin-bottom: 40px;
+    font-family: Century Gothic;
+    font-size: 15px;
+  }
+  li {
+    list-style: none;
+  }
+  @media screen and (max-width: 993px) {
+    .logo-reseaux {
+      flex-wrap: nowrap;
+      font-size: 15px;
+    }
+  }
+  @media screen and (max-width: 375px) {
+    .recettes h3 {
+      font-size: 20px;
+    }
+    .logo-reseaux {
+        display: flex;
+        justify-content: space-around;
+        margin-right: 2.5em;
+        width: auto;
+        font-size: 15px;
+      }
+    .liste {
+      display: list-item;
+      text-align: center;
+      margin-right: 2.5em;
+      list-style-type: none;
+    }
+    .show {
+      display: block;
+    }
+    .footer {
+      height: auto;
+      width: auto;
+     
+
+    }
+  }
+  .droits {
+    font-size: 17px;
+  }
+  
+  @media screen and (max-width: 575px) {
+    .ing {
+      font-size: 5px;
+    }
+  
+    ul {
+      display: none;
+    }
+    .logo-reseaux {
+      font-size: 1opx;
+      margin: 5px;
+      justify-content: center;
+      align-items: center;
+    }
+    .fab {
+      font-size: 40px;
+    }
+    h3.partenaires {
+      font-size: 1, 5em;
+    }
+    h3.recettes {
+      font-size: 1, 5em;
+    }
+    h3.categories {
+      font-size: 1, 5em;
+    }
+    .liste {
+      display: inline-block;
+    }
+  }
+  .img {
+    transition: transform 2000ms ease-in-out;
+    height: 70%;
+  }
+  .img:hover {
+    transform: scale(1.07);
+  }
+  .info a {
+    color: #fff !important;
+  }
+  .liste li {
+    display: inline;
+    font-size: medium;
+    font-family: Century Gothic;
+    margin-right: 5px;
+  }
+  .partenaires {
+    font-size: 1, 5rem;
+    font-family: Century Gothic;
+  }
+  
+  .recettes {
+    font-size: 1, 5rem;
+    font-family: Century Gothic;
+  }
+  .catégories {
+    font-size: 1, 5rem;
+    font-family: Century Gothic;
+  }
+  .recettelist li {
+    font-size: 17px;
+    margin: 5px;
+    font-family: Century Gothic;
+    margin-right: 40px;
+    cursor: pointer;
+  }
+  .partenaireslist li {
+    font-size: 17px;
+    font-family: Century Gothic;
+    margin: 5px;
+    margin-right: 40px;
+    cursor: pointer;
+  }
+  .categorieslist li {
+    font-size: 17px;
+    margin: 5px;
+    font-family: Century Gothic;
+    margin-right: 40px;
+    cursor: pointer;
+  }
+  
