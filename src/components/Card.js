@@ -1,6 +1,5 @@
 import React from "react";
-import Data from "../Data";
-import ListRecette from "../ListRecette";
+import './Card.css'
 
 const Card = ({ DataRecettes }) => {
   const ingredients = DataRecettes.ingredients
@@ -20,6 +19,7 @@ const Card = ({ DataRecettes }) => {
   };
 
   return (
+    
     <div class="card">
       <div class="image">
         <img src={requireImage(DataRecettes.image)} alt={DataRecettes.nom} />
@@ -29,7 +29,7 @@ const Card = ({ DataRecettes }) => {
         <i class={DataRecettes.fafa}></i>
 
         <ul class="liste-ingredients">{ingredients}</ul>
-        <ol class="liste-instructions">{instructions}</ol>
+        {/* <ol class="liste-instructions">{instructions}</ol> */}
       </div>
     </div>
   );
