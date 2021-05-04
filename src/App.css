@@ -96,34 +96,34 @@ i{
 
 
 }
-.container{
-    display: flex;
-    justify-content:space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
+
 .card{
-    flex: 0 1 500px;
+    flex: 4 4 300px;
+    /* flex: 1 0 400px; */
     min-height: 300px;
+    display: flex;
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
     min-width: 300px;
-    /*border: 5px solid lightblue;*/
+    font-family: Century Gothic;
     margin: 20px 15px;
     transition: transform 0.3s ease-in-out;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
+    overflow: scroll;
     margin-top: 50px;
 }
-/* .cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; 
-} */
+.recette{
+padding: 20px;
+}
+
 .footer{
     height: 400px;
     width: 100%;
     background-color: #e55039;
     color: #fff;
     margin-top: 50px;
+    text-decoration: none;
     position: absolute;
     margin-bottom: 0;
 }
@@ -149,15 +149,42 @@ margin-top: 100px;
 .facebook{
     margin-left: 90px;
 }
-@media screen and (max-width: 375px) {
-    .card {
-      margin: 0 auto;
+/* aside */
+.aside{
+    height: 400px;
+  width: 250px;
+  border: 1px grey;
+  border-radius: 5px;
+  margin-top: 200px !important;
+  box-shadow: 0px 3px 5px grey;
+  background-color: #e55039;
+  color: white;
+}
+.icon {
+    padding-top: 15px;
+  }
+  .best {
+    color: white;
+    font-family: Century Gothic;
+    font-size: 20px;
+    padding: 7px;
+  }
+  
+  .subcontainer{
+      display: inline-flex;
       margin:10px;
-    }
-    .liste-ingredients{
-        display:block;
-    }
-    .container{
-        margin:0 auto;
-    }
+  }
+  .container{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+
+}
+.item1{
+    flex:1;
+    display:inline-block;
+    position:relative;
+    margin-left:110px;
+    margin-top: 20px;
+
 }
