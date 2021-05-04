@@ -1,7 +1,7 @@
 const recettes = [
      {
       id:1,
-      nom: 'Salade d\'épinards du Soleil',
+      nom: 'Salade d\'épinards',
       image: 'epinard.jpg',
       ingredients: '450g d\'Épinards, 2 Pommes, 6 tranches de Bacon, 1 Oignon',
       instructions: "Laver et couper en 2 les feuilles d'épinards.\nPréparer une sauce vinaigrette.\nLaver et couper les pommes. Emincer l'oignon. Faire griller le Bacon.\nAjouter le tout aux épinards.\nS'accorde bien avec un Pinot Blanc."

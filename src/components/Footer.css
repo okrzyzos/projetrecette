@@ -4,6 +4,7 @@
     color: #fff;
     margin-top: 30px;
     font-weight: 600;
+    text-decoration: none;
     text-align: center;
     position: absolute;
   }
@@ -26,27 +27,27 @@
     .recettes h3 {
       font-size: 20px;
     }
+    .card{
+        margin: 0 auto;
+        margin:20px;
+        padding-top: 2px;
+        
+    }
     .logo-reseaux {
-        display: flex;
-        justify-content: space-around;
-        margin-right: 2.5em;
-        width: auto;
-        font-size: 15px;
+        font-size: 10px;
+        margin: 5px;
       }
-    .liste {
-      display: list-item;
-      text-align: center;
-      margin-right: 2.5em;
-      list-style-type: none;
+    .liste a{
+      text-decoration: none;
+      font-size: 14px;
+      
     }
     .show {
       display: block;
     }
     .footer {
-      height: auto;
-      width: auto;
-     
-
+        max-height: 100%;
+        max-width: 100;
     }
   }
   .droits {
@@ -62,7 +63,7 @@
       display: none;
     }
     .logo-reseaux {
-      font-size: 1opx;
+      font-size: 10px;
       margin: 5px;
       justify-content: center;
       align-items: center;
