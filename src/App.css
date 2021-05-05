@@ -98,8 +98,7 @@ i{
 }
 
 .card{
-    flex: 4 4 300px;
-    /* flex: 1 0 400px; */
+    flex:0.4;
     min-height: 300px;
     display: flex;
     display: grid;
