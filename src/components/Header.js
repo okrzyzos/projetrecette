@@ -1,4 +1,5 @@
 import React,{useState} from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../img/logochef2.png'
 
 const Header = ({filter,setFiltering}) => {
@@ -15,10 +16,11 @@ const Header = ({filter,setFiltering}) => {
   <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
       <li className="nav-item active">
-        <a  className="nav-link" href="#">Recette Afpa
+        <Link  className="nav-link" to="/accueil">
+        Recette Afpa
         <img   className="logo" src={logo}
         />
-        </a>
+        </Link>
       </li>
     </ul>
 
@@ -34,6 +36,7 @@ const Header = ({filter,setFiltering}) => {
      
       }}
         />
+
     </form>
     </div>
 

@@ -1,11 +1,10 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 
 const Navbar = () => {
 
 
-  const handlelogo = () =>{
-  console.log('heloo');
-  }
+  
   return (
     <nav class="menum navbar navbar-light navbar-expand-md justify-content-center sticky-top">
       <div class="container">
@@ -15,33 +14,40 @@ const Navbar = () => {
         >
           <ul class="topBotomBordersOut navbar-nav mx-auto text-center">
             <li class="nav-item">
-              <a onClick={handlelogo} class="nav-link" href="#">
+              <Link to="/plats" class="nav-link" >
                 Plats
-              </a>
+              </Link>
             </li>
+
             <li class="nav-item">
+            <Link to="/desserts" class="nav-link" >
+
               {" "}
-              <a class="nav-link" href="#">
                 Dessert
-              </a>
+                </Link>
+
+            </li>
+
+            <li class="nav-item">
+            <Link to="/menuComplet" class="nav-link" >
+
+              {" "}
+                Menu complet
+              </Link>
             </li>
             <li class="nav-item">
+            <Link to="/entrées" class="nav-link">
+
               {" "}
-              <a class="nav-link" href="#">
-                Menu complet{" "}
-              </a>
-            </li>
-            <li class="nav-item">
-              {" "}
-              <a class="nav-link" href="#">
                 Entrées
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
+            <Link to="/saisons" class="nav-link">
+
               {" "}
-              <a class="nav-link" href="#">
                 Saison
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

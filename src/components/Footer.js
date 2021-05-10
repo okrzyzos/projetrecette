@@ -1,6 +1,7 @@
 
 import React from 'react';
 import './Footer.css';
+import {Link} from 'react-router-dom';
 
 
 
@@ -63,12 +64,35 @@ const Footer = props => {
             <h3 onClick={onToggleClickCategories} className="categories">CATÉGORIES</h3>
 
             <ul ref={catRef} className="categorieslist">
+              <li>
+<Link to="/entrées">
 
-              <li>Entrées</li>
-              <li>Déssert</li>
-              <li>Plats</li>
-              <li>Saisons</li>
-              <li>Menu complet</li>
+              Entrées
+              </Link>
+
+              </li>
+
+              <li>
+              <Link to="/desserts">
+              Déssert
+              </Link>
+              </li>
+              <li>
+              <Link to="/plats">
+              Plats
+              </Link>
+              </li>
+              <li>
+              <Link to="/saisons">
+              Saisons
+              </Link>
+              </li>
+              <li>
+              <Link to="/menuComplet">
+              Menu Complet
+              </Link>
+              </li>
+              
 
             </ul>
 

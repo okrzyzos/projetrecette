@@ -134,4 +134,7 @@
     margin-right: 40px;
     cursor: pointer;
   }
+  .categorieslist  li a{
+      text-decoration: none;
+  }
   

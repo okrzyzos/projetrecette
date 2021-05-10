@@ -1,6 +1,8 @@
 import React from 'react';
 import StarIcon from '@material-ui/icons/Star';
+import "../App.css";
 import FormatQuoteIcon from '@material-ui/icons/FormatQuote';
+import {Link} from 'react-router-dom';
 
 
 const Aside = () => {
@@ -14,7 +16,14 @@ const Aside = () => {
           </div>
         
 
-          <span>-Hamburger maison</span><br/>
+<span className="bestof">
+<Link to="/hamburger">
+
+-Hamburger maison
+</Link>
+
+</span><br/>
+
         <StarIcon style={{color:"#fff200"}}/>
         <StarIcon style={{color:"#fff200"}}/>
         <StarIcon style={{color:"#fff200"}}/>

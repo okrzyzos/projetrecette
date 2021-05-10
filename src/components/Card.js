@@ -1,16 +1,27 @@
-import React from "react";
-// import './Card.css'
+import React,{useState} from "react";
+import './Card.css'
 import StarIcon from '@material-ui/icons/Star';
+import Hamburger from "./recettes/Hamburger";
+import { useHistory } from "react-router-dom";
+
 
 
 const Card = ({ DataRecettes }) => {
+  const history = useHistory();
+
+  // const [showIngredients,setShowIngredients] = useState(false);
+
   const ingredients = DataRecettes.ingredients
     .split(",")
     .map((item) => <li key={item}>{item}</li>);
 
-  const instructions = DataRecettes.instructions
-    .split("\n")
-    .map((item) => <li key={item}>{item}</li>);
+    // const url = DataRecettes.url;
+
+
+
+  // const instructions = DataRecettes.instructions
+  //   .split("\n")
+  //   .map((item) => <li key={item}>{item}</li>);
 
   const requireImage = (chemin) => {
     try {
@@ -23,7 +34,7 @@ const Card = ({ DataRecettes }) => {
   return (
 <div class="card mt-4">
       <div class="image">
-        <img src={requireImage(DataRecettes.image)} alt={DataRecettes.nom} />
+        <img onClick={() => history.push('/hamburger')} src={requireImage(DataRecettes.image)} alt={DataRecettes.nom} />
       </div>
       <div class="recette mb-3">
         <h1>{DataRecettes.nom}</h1>
@@ -36,8 +47,12 @@ const Card = ({ DataRecettes }) => {
         <span>4/5</span><br/>
 
       
-{ingredients}
+
+  
+   <p  onClick={() => history.push('/hamburger')}  className="read pt-2">READ MORE</p>
+   
 </div>
+
     </div>
   );
 };

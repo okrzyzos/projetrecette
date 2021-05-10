@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import pizza from "./img/pizza.jpeg";
 import chocolat from "./img/chocolat.jpeg";
 import hamburger from "./img/hamburger.jpeg";
+import {Link} from 'react-router-dom'
 import Aside from "./components/Aside";
 
 const ListRecette = ({ DataRecettes }) => {
@@ -12,13 +13,12 @@ const ListRecette = ({ DataRecettes }) => {
     <>
       <div className="container">
 
-
         {DataRecettes.map((recette) => {
           const { id, image, nom, instructions, ingredients } = recette;
-          return <Card key={id} DataRecettes={recette}></Card>;
-
+          return  <Card key={id} DataRecettes={recette}></Card>;
 
         })}
+
         </div>
         <div className="subcontainer">
           <div className="item1">
