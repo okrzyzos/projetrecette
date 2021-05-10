@@ -109,7 +109,7 @@ i{
     transition: transform 0.3s ease-in-out;
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    overflow: scroll;
+    overflow:scroll;
     margin-top: 50px;
 }
 .recette{
@@ -186,4 +186,17 @@ margin-top: 100px;
     margin-left:110px;
     margin-top: 20px;
 
+}
+span.bestof a {
+    text-decoration: none;
+}
+/* route nav */
+.entres{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.titreburger{
+    font-family: Century Gothic;
 }

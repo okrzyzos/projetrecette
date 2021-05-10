@@ -11,14 +11,16 @@ const recettes = [
       nom: 'Amour de Saumon',
       image: 'saumon.jpeg',
       ingredients: '2 pavés de Saumon, 10 Tomates Cerises, 1 gousse d\'Ail, 1 Citron',
-      instructions: "Préchauffer le four à 180°C.\nPeler et émincer la gousse d'ail.\nCouper les tomates cerises en deux.\nDéposer chaque pavé de saumon au centre d'une feuille de cuisson et ajouter autour l'ail, les tomates cerises et le jus de citron.\nFermer les papillotes et enfourner 30 minutes.\nS'accorde bien avec un Pouilly Fumé."
+      instructions: "Préchauffer le four à 180°C.\nPeler et émincer la gousse d'ail.\nCouper les tomates cerises en deux.\nDéposer chaque pavé de saumon au centre d'une feuille de cuisson et ajouter autour l'ail, les tomates cerises et le jus de citron.\nFermer les papillotes et enfourner 30 minutes.\nS'accorde bien avec un Pouilly Fumé.",
+      url:'/components/recettes/Amour.js'
     },
     {
       id:3,
       nom: 'Hamburger Maison',
       image: 'hamburger.jpeg',
       ingredients: '2 gros Steacks Hachés, 2 Buns, 80g de Cheddar, 4 tranches de Bacon, 1 Oignon, Ketchup ou sauce BBQ, Salade',
-      instructions: "Peler et couper l'oignon en rondelles puis les faire fondre à la poêle avec une noix de beurre.\nFaire cuire les Steacks.\nFaire revenir les tranches de Bacon.\nFaire dorer les Buns au four.\nMonter le Hamburger dans cet ordre : oignons, bacon, steack, sauce, cheddar, salade.\nS'accorde bien avec un Coca-Cola."
+      instructions: "Peler et couper l'oignon en rondelles puis les faire fondre à la poêle avec une noix de beurre.\nFaire cuire les Steacks.\nFaire revenir les tranches de Bacon.\nFaire dorer les Buns au four.\nMonter le Hamburger dans cet ordre : oignons, bacon, steack, sauce, cheddar, salade.\nS'accorde bien avec un Coca-Cola.",
+      url:'/components/recettes/Hamburger.js'
     },
 {
       id:4,
