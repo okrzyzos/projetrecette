@@ -1,9 +1,12 @@
 import React from 'react';
 
-const AmourDeSaumon = () => {
+const Salade = () => {
     return (
-        <div>
-            <h1>Amour de saumon</h1>
+        <>
+            <h1 className="text-center pt-2 titreburger">Salade d'Epinard </h1>
+
+<div className="container pt-3 d-flex justify-content-center mx-auto ">
+<img  className="entres p-3" src="https://i.pinimg.com/originals/0c/ac/34/0cac340a7dbd9679257ec29aace8cb67.jpg" alt="burger"/>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi commodi ducimus ab distinctio, nam neque quasi adipisci unde laboriosam quibusdam ad. Necessitatibus nesciunt debitis quia unde suscipit dolor quam et?
             Fugiat quasi, aut reprehenderit debitis quia quas recusandae aliquid nihil at sequi ipsum quam, quis quae esse commodi laborum, velit consequatur unde dolores? Et accusantium deleniti provident, distinctio laboriosam similique.
             Eveniet consequatur beatae blanditiis asperiores! Molestias accusamus ipsam reiciendis. Mollitia adipisci repellendus numquam atque neque dolor sunt enim labore ea dolorem magni, modi ipsam, aut impedit sed, hic iure accusamus?
@@ -15,7 +18,19 @@ const AmourDeSaumon = () => {
             Excepturi officiis illum sapiente ad possimus, vel, necessitatibus magnam exercitationem iusto, natus ratione. Distinctio impedit officiis, dignissimos molestias dolorum, alias, quisquam dolorem eos eveniet praesentium reprehenderit veniam enim porro nostrum!
             Magni ducimus incidunt reiciendis enim aut odit laborum deleniti nisi repellendus cupiditate eum architecto repellat consequatur esse, impedit non, aperiam voluptate eveniet ipsum natus placeat dolorum alias qui. Provident, porro!
         </div>
+        </>
     );
 };
 
-export default AmourDeSaumon;
+export default Salade;
+
+
+
+
+
+
+
+
+
+
+

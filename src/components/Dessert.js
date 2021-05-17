@@ -9,13 +9,7 @@ export const Dessert = () => {
             <h1>Dessert</h1>
             <img  className="entres" src="https://www.recette360.com/wp-content/uploads/2020/06/Dessert-mousse-aux-fraises-au-thermomix.jpg" alt="dessert"/>
 
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab consequatur libero nisi inventore dignissimos placeat accusantium iste unde. Ipsa optio quod dolorem harum ab perspiciatis illo molestiae error repellat? Quidem!
-            Similique eius, reiciendis excepturi mollitia eos delectus deleniti reprehenderit magnam nemo commodi tempore, molestiae iste debitis sed sunt deserunt ducimus dolorem consequatur nulla illo molestias dolores? Amet dolorum adipisci nam.
-            Similique nesciunt necessitatibus minima vitae officia quae eos, fugiat aliquam voluptatem. Expedita dignissimos eveniet, quibusdam consequatur amet nisi labore ipsum vero deserunt explicabo at molestias maxime cum odio accusantium porro.
-            Laboriosam illum delectus consectetur rerum, doloremque hic amet? A eligendi maiores illum obcaecati eos magni minus magnam nisi rerum natus! Minus nihil reprehenderit assumenda maxime officiis at, unde corrupti eos!
-            Hic expedita dignissimos nemo, perferendis dolor quae reiciendis consequatur voluptate eos atque totam quod amet sunt quo illum illo cum! Beatae, inventore ullam? Eaque corrupti aut molestiae facilis praesentium et?
-            Sit in distinctio, placeat labore maiores assumenda illo ex accusamus. Delectus architecto obcaecati omnis accusamus reprehenderit illum vero quod sit nesciunt iure distinctio, excepturi itaque mollitia? Excepturi ut aliquid provident.
-            Totam, nam modi. Tenetur, aperiam alias illum odio officia eveniet doloribus blanditiis natus reiciendis dolorem dolore adipisci accusantium, possimus dolor autem! Dolore quo suscipit ab ut aliquid, rem in blanditiis.
+            
             Explicabo mollitia similique nulla perspiciatis dolorem soluta alias ipsam possimus. Ducimus dolorem commodi cupiditate id maxime. Neque provident ratione illo, architecto repudiandae exercitationem quos eum et libero doloremque ea earum!
             Magnam quia numquam iure quibusdam, nobis asperiores, hic iusto quis quasi fuga sint. Totam dolorem autem omnis provident exercitationem porro voluptate sed dicta cupiditate, vitae delectus molestiae nulla molestias excepturi!
             Recusandae beatae facilis, nulla ipsa ut deserunt molestiae natus totam voluptatibus laboriosam autem quas omnis iusto similique unde nobis incidunt voluptatem mollitia quae rem? Doloremque reiciendis omnis nemo provident architecto?

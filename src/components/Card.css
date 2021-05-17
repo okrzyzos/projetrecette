@@ -3,6 +3,23 @@
     cursor: pointer;
 }
 
+.image{
+    transition: transform 2000ms ease-in-out;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.image:hover{
+transform: scale(1.03);
+}
+
+.read{
+    transition: transform 0.3s ease-in-out;
+
+
+}
+
+.read:hover{
+transform: translateY(5px);
 
 
 
+}
