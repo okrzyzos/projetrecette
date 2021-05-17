@@ -13,7 +13,12 @@ import Plats from './components/Plats';
 import Entrees from './components/Entrees';
 import MenuComplet from './components/MenuComplet';
 import Hamburger from './components/recettes/Hamburger';
-import AmourDeSaumon from './components/recettes/AmourDeSaumon';
+import Salade from './components/recettes/Salade';
+import Pizza from './components/recettes/Pizza';
+import Moelleux from './components/recettes/Moelleux';
+import Saumon from './components/recettes/Saumon';
+import Tartines from './components/recettes/Tartines';
+
 
 
 const App = () => {
@@ -47,8 +52,12 @@ const App = () => {
         <Route path="/plats" component={Plats} />
         <Route path="/saisons" component={Saison} />
         <Route path="/entrées" component={Entrees} />
-        <Route path="/hamburger" component={Hamburger} DataRecettes={recettes}/>
-        <Route path="/amour" component={AmourDeSaumon} />
+        <Route path="/salade" component={Salade} />
+        <Route path="/pizza" component={Pizza} />
+        <Route path="/moelleux" component={Moelleux} />
+        <Route path="/tartines" component={Tartines} />
+        <Route path="/hamburger" component={Hamburger} />
+        <Route path="/saumon"    component={Saumon}  />
         <Route path="/menuComplet" component={MenuComplet} />
         <Route path="/" render={() => <ListRecette to="/"  DataRecettes={isFiltering ? filtered : recettes}  />} />
 

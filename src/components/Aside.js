@@ -31,13 +31,21 @@ const Aside = () => {
          
           <span className="etoile">4/5</span><br/>
 
-          <span>-Salades d’épinard</span><br />
+          <span className="bestof">
+<Link to="/salade">
+          -Salades d’épinard
+          </Link>
+          </span><br />
           <StarIcon style={{color:"#fff200"}}/>
         <StarIcon style={{color:"#fff200"}}/>
         <StarIcon style={{color:"#fff200"}}/>
         <StarIcon style={{color:"#fff200"}}/>
           <span className="etoile">4/5</span><br />
-          <span>-Pizza au chorizon</span><br />
+          <span className="bestof">
+          <Link to="/pizza">
+          -Pizza au chorizon
+          </Link>
+          </span><br />
           <StarIcon style={{color:"#fff200"}}/>
         <StarIcon style={{color:"#fff200"}}/>
         <StarIcon style={{color:"#fff200"}}/>
